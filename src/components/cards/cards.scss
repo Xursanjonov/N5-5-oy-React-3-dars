@@ -1,0 +1,25 @@
+.product-card-img {
+    width: 500px;
+    padding: 1rem 0;
+}
+.product-card-tabs div {
+    gap: .5rem;
+}
+.tabs {
+    padding: .3rem .5rem;
+    border-radius: 20px;
+}
+.tabs:hover {
+    padding: .3rem .5rem;
+    border-radius: 20px;
+    background-color: lavender;
+}
+.btn-1 {
+    padding: .3rem 0;
+    border: 0;
+    border-bottom: 3px solid black;
+}
+.btn-2 {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}

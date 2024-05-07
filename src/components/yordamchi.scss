@@ -1,0 +1,174 @@
+// Container width
+.container {
+    min-width: 300px;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+.xxl {
+    min-width: 1280px;    
+    margin: 0 auto;
+}
+.xl {
+    min-width: 1024px;    
+    margin: 0 auto;
+}
+.lg {
+    min-width: 878px;    
+    margin: 0 auto;
+}
+.md {
+    min-width: 578px;    
+    margin: 0 auto;
+}
+.sm {
+    min-width: 320px;    
+    margin: 0 auto;
+}
+// Container width and
+
+// width
+.w-25 { width: 25%; margin: 0 auto; }
+.w-50 { width: 50%; margin: 0 auto; }
+.w-75 { width: 75%; margin: 0 auto; }
+.w-80 { width: 80%; margin: 0 auto; }
+.w-85 { width: 85%; margin: 0 auto; }
+.w-90 { width: 90%; margin: 0 auto; }
+.w-95 { width: 95%; margin: 0 auto; }
+.w-100 { width: 100%; margin: 0 auto; }
+// width end
+
+// height
+.h-25 { height: 25%; margin: 0 auto; }
+.h-50 { height: 50%; margin: 0 auto; }
+.h-75 { height: 75%; margin: 0 auto; }
+.h-80 { height: 80%; margin: 0 auto; }
+.h-85 { height: 85%; margin: 0 auto; }
+.h-90 { height: 90%; margin: 0 auto; }
+.h-95 { height: 95%; margin: 0 auto; }
+.h-100 { height: 100%; margin: 0 auto; }
+.h-100vh { height: 100vh; }
+// height end
+
+// Padding
+.p-05 {padding: .5rem;}
+.p-1 {padding: 1rem;}
+.p-1_5 {padding: 1.5rem;}
+.p-2 {padding: 2rem;}
+.p-2_5 {padding: 2.5rem;}
+.p-3 {padding: 3rem;}
+.p-3_5 {padding: 3.5rem;}
+.p-4 {padding: 4rem;}
+.p-4_5 {padding: 4.5rem;}
+.p-5 {padding: 5rem;}
+// PY-0
+.py-0 {padding: 0 0;}
+.py-05 {padding: .5rem 0;}
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+.py-4 {padding: 4rem 0;}
+.py-5 {padding: 5rem 0;}
+// PX-0
+.px-0 {padding: 0 0}
+.px-05 {padding: 0 .5rem}
+.px-1 {padding: 0 1rem}
+.px-2 {padding: 0 2rem}
+.px-3 {padding: 0 3rem}
+.px-4 {padding: 0 4rem}
+.px-5 {padding: 0 5rem}
+// Padding end
+
+// display
+.none { display: none; }
+.block { display: block; }
+// display end
+
+// display flex
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.items-start { align-items: start; }
+.items-center { align-items: center; }
+.items-end { align-items: end; }
+.justify-start { justify-content: start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: start; }
+.justify-around { justify-content: space-around; }
+.justify-between { justify-content: space-between; }
+.justify-evenly { justify-content: space-evenly; }
+.gap-0 { gap: 0; }
+.gap-1 { gap: 1rem; }
+.gap-2 { gap: 2rem; }
+.gap-3 { gap: 3rem; }
+.gap-4 { gap: 4rem; }
+.gap-5 { gap: 5rem; }
+// display flex end
+
+// display grid
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: 1fr; }
+.grid-cols-2 { grid-template-columns: 1fr 1fr; }
+.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+.grid-cols-6 { grid-template-columns: repeat(6, 1fr); }
+.grid-cols-7 { grid-template-columns: repeat(7, 1fr); }
+.grid-cols-8 { grid-template-columns: repeat(8, 1fr); }
+// display grid end
+
+// bg color
+.bg-red { background-color: red; }
+.bg-blue { background-color: blue; }
+.bg-lime { background-color: lime; }
+.bg-gray { background-color: gray; }
+.bg-aqua { background-color: aqua; }
+.bg-black { background-color: black; }
+.bg-white { background-color: white; }
+.bg-orange { background-color: orange; }
+.bg-yellow { background-color: yellow; }
+.bg-transparent { background-color: transparent; }
+// bg color end
+
+// color
+.text-red { color: red; }
+.text-blue { color: blue; }
+.text-lime { color: lime; }
+.text-aqua { color: aqua; }
+.text-gray { color: gray; }
+.text-black { color: black; }
+.text-white { color: white; }
+.text-orange { color: orange; }
+.text-yellow { color: yellow; }
+// color end
+
+// font-size
+.text-xs {font-size: 8px;}
+.text-sm {font-size: 10px;}
+.text-md {font-size: 18px;}
+.text-lg {font-size: 24px;}
+.text-xl {font-size: 28px;}
+.text-2xl {font-size: 32px;}
+.text-3xl {font-size: 36px;}
+.text-4xl {font-size: 40px;}
+.text-5xl {font-size: 44px;}
+.text-6xl {font-size: 48px;}
+.text-7xl {font-size: 52px;}
+.text-8xl {font-size: 56px;}
+// font-size end
+
+// font-size
+.text-start {text-align: start;}
+.text-center {text-align: center;}
+.text-end {text-align: end;}
+// font-size end
+
+// font-size end
+.font-light {font-weight: 300;}
+.font-medium {font-weight: 500;}
+.font-semibold {font-weight: 600;}
+.font-bold {font-weight: 700;}
+.font-extrabold {font-weight: 800;}
+.font-black {font-weight: 900;}
+// font-size end
